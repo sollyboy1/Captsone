@@ -10,7 +10,7 @@
 #container_1 .header{ flex-basis: 50%; padding-left: 30px;}
 #container_1 .header h1{ color: #ffff; font-size: 65px; text-align: left;}
 #container_1 .header p{ color: #CA04B6; font-size:25px; text-align: left;}
-#container_1 .header button{background-color: #CA04B6; color: #ffff; padding: 15px 30px; font-size: 15px; border: none;}
+#container_1 .header button{background-color: #d4cd05; color: #ffff; padding: 15px 30px; font-size: 15px; border: none;}
 
 #container_2{display: flex; margin-top: 50px; justify-content: center; align-items: center;}
 #container_2 .body2{ flex-basis: 50%; padding-left: 30px;}
