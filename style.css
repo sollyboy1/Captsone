@@ -11,7 +11,11 @@ nav {display: flex; background-color: #ffff; height: 100px; justify-content: spa
 .menu {
   display: none;
 }
-
+@media (max-width:500px){
+  body{
+    overflow-x: hidden;
+  }
+}
 @media(max-width:500px){
   .my_nav {
     display: block;
