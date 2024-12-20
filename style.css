@@ -58,7 +58,7 @@ nav {display: flex; background-color: #ffff; height: 100px; justify-content: spa
    background-size: cover; padding: 200px 0px; background-position: center;
   background-size: cover;}
 #container_1 .header{ flex-basis: 50%; padding-left: 30px;}
-#container_1 .header h1{ color: #ffff; font-size: 65px; text-align: left;}
+#container_1 .header h1{ color: blue; font-size: 65px; text-align: left;}
 #container_1 .header p{ color: #CA04B6; font-size:25px; text-align: left;}
 #container_1 .header button{background-color: #CA04B6; color: #ffff; padding: 15px 30px; font-size: 15px; border: none;}
 
