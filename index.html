@@ -9,19 +9,22 @@
 <body>
 
 
-    <div id="nav">
+    <nav>
         <div class="logo">
             <img src="favicon.png" alt="logo">
         </div>
-        <div class="my_nav">
+        <div class="my_nav" id="menu">
+            <img src="cross.png" alt=""  class="menu" id="menu"   onclick="hideMenu()">
             <ul>
-                <li><a href="#">Home</a></li>
+                <li><a href="../Capstone/index.html">Home</a></li>
                 <li><a href="../Capstone/About.html">About</a></li>
                 <li><a href="http://www.livescores.com">Our Services</a></li>
-                <li><a href="http://www.livescores.com">Our Contact</a></li>
+                <li><a href="../Capstone/Contact.html">Our Contact</a></li>
             </ul>
+           
         </div>
-    </div>
+        <img src="menu.png" alt="" class="menu"  id="menu" onclick="showMenu()">
+    </nav>
     <div id="container_1">
         <div class="header">
             <h1>WE ARE HERE TO TEACH YOU</h1>
@@ -140,5 +143,15 @@
         
     </div>
 </div>
+<script>
+    var myFunc = document.getElementById("menu")
+    function showMenu(){
+        myFunc.style.right= "0"
+    }
+
+    function hideMenu(){
+        myFunc.style.right= "-250px"
+    }
+</script>
 </body>
 </html>
