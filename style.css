@@ -28,6 +28,7 @@ nav {display: flex; background-color: #ffff; height: 100px; justify-content: spa
     z-index: 1px;
     position: absolute;
     transition: 1s;
+    overflow-x: hidden;
     
     
   }
@@ -71,6 +72,7 @@ nav {display: flex; background-color: #ffff; height: 100px; justify-content: spa
     justify-content: center;
     align-items: center;
     text-align: center;
+    overflow-x: hidden;
   }
   #container_1 .header h1{ color: #ffff; font-size: 20px; text-align: center;}
   #container_1 .header p{ color: #CA04B6; font-size:10px; text-align: center;}
@@ -94,12 +96,14 @@ nav {display: flex; background-color: #ffff; height: 100px; justify-content: spa
   #container_2{display: block;
                 text-align: center;
               align-content: center;
-            justify-content: center;}
+            justify-content: center;
+            overflow-x: hidden;}
   #container_2 .body2 h1{ text-align: center; font-size: 30px; color: #CA04B6;}
   #container_2 .body2 p{ font-size:14px; text-align: center;}
   #container_2 .body2 button{display: inline-block; align-items: center; text-align: center; padding: 10px 20px; }
   #container_2 .body2 button:hover{background-color: #ca04b600; color:#CA04B6; padding: 10px 20px; font-size: 15px; border: solid 2px #CA04B6 ; justify-content: center; align-items: center;}
   #container_2 .body3 img{ width: 250px; height: 250px; border-radius: 100%; padding-left: 20px; border: 2px solid #CA04B6; margin-top: 10px;}
+ 
 }
 
 
@@ -113,13 +117,14 @@ nav {display: flex; background-color: #ffff; height: 100px; justify-content: spa
         background-position: center;
         background-size: cover;
         font-size: 30px;
+        overflow-x: hidden;
       }
 
      }
 
      #container_4{display: flex; flex-wrap: wrap; justify-content: center;  align-items:center; justify-content:space-around;}
      #container_4 .box{ flex-basis: 30%; padding: 100px 0px; border: #CA04B6 3px;  background-color:blanchedalmond; margin-bottom: 2%; text-align: center; border-radius: 20px;}
-     #container_4 .box h1{ color:green; text-align: center;}
+     #container_4 .box h1{ color:#CA04B6; text-align: center;}
      #container_4 .box h3{ color: #CA04B6; text-align: center;}
      #container_4 .box button{ background-color: #CA04B6; text-align: center; color: #ffff; padding: 10px; text-align: center; border-color: #ffff; border-radius: 8px;}
      #container_4 .box button:hover{ background-color: #0d010c; text-align: center; color: #ffff; padding: 11px; text-align: center; border-color: #ffff; border-radius: 8px;}
@@ -130,6 +135,7 @@ nav {display: flex; background-color: #ffff; height: 100px; justify-content: spa
         display:block;
         
         justify-items: center;
+        overflow-x: hidden;
         
       }
       #container_4 .box{
@@ -158,6 +164,7 @@ nav {display: flex; background-color: #ffff; height: 100px; justify-content: spa
           justify-content: center;
           padding: 0;
           margin-top: 20px;
+          overflow-x: hidden;
         }
         .contact_frm .contact_frm1{
           margin-top: 20px;
@@ -208,6 +215,7 @@ nav {display: flex; background-color: #ffff; height: 100px; justify-content: spa
        .footer{ display: block;
         text-align: center;
         justify-content: center;
+        overflow-x: hidden;
       }
       .footer .column h1 {
         font-size: 20px;
